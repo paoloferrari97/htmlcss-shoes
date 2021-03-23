@@ -39,6 +39,7 @@
 
 .immagine > img{
     width: 500px;
+    cursor: pointer;
 }
 
 .rosso > .immagine_testo > .testo, .verde > .immagine_testo > .testo{
@@ -71,7 +72,8 @@
     vertical-align: middle;
     margin-top: 40px;
     margin-left: 40px;
-    box-shadow: 1px 1px 1px black;
+    box-shadow: 2px 2px 2px black;
+    cursor: pointer;
 }
 
 .pallino.tre{
