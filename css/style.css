@@ -1,0 +1,54 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    font-family: 'Rubik Mono One', sans-serif;
+}
+
+.rosso{
+    width: 100%;
+    height: 100vh;
+    background-color: red;
+    position: relative;
+}
+
+.verde{
+    width: 100%;
+    height: 100vh;
+    background-color: green;
+    position: relative;
+}
+
+.giallo{
+    width: 100%;
+    height: 100vh;
+    background-color: yellow;
+    position: relative;
+}
+
+.immagine_testo{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.immagine > img{
+    width: 500px;
+}
+
+.rosso > .immagine_testo > .testo, .verde > .immagine_testo > .testo{
+    color: yellow;
+    font-size: 25px;
+    width: 500px;
+}
+
+.giallo > .immagine_testo > .testo{
+    color: green;
+    font-size: 25px;
+    width: 500px;
+}
